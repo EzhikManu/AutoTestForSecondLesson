@@ -66,9 +66,5 @@ public class PracticeFormTests {
         $x("//td[text()='Picture']").parent().shouldHave(text("sezan.jpg"));
         $x("//td[text()='Address']").parent().shouldHave(text("Street, house, flat"));
         $x("//td[text()='State and City']").parent().shouldHave(text("Rajasthan Jaipur"));
-
-
-
     }
-
 }

@@ -4,3 +4,5 @@ gradlew.bat
 gradle
 build
 .gradle
+.idea
+src/main
