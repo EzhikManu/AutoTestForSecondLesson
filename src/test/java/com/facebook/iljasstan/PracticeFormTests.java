@@ -6,6 +6,8 @@ import org.junit.jupiter.api.Test;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
+import static com.facebook.iljasstan.TestData.firstName;
+import static com.facebook.iljasstan.TestData.lastName;
 
 public class PracticeFormTests {
 
@@ -18,8 +20,8 @@ public class PracticeFormTests {
         // заполнить поле first name
         // заполнить поле last name
         // заполнить поле email
-        $("#firstName").setValue("Krot");
-        $("#lastName").setValue("Krotov");
+        $("#firstName").setValue(firstName);
+        $("#lastName").setValue(lastName);
         $("#userEmail").setValue("krot@krotov.com");
         // нажать радио-кнопку Male
         $("#gender-radio-1").parent().click();
